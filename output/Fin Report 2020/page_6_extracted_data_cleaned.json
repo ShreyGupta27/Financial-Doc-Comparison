@@ -1,0 +1,47 @@
+{
+  "source_pdf": "Fin Report 2020.pdf",
+  "page_number": 6,
+  "processed_pages": 1,
+  "model": "qwen2.5-coder:7b",
+  "extracted_data": [
+    {
+      "page": 6,
+      "status": "success",
+      "extracted_content": {
+        "company_name": null,
+        "registration_number": null,
+        "financial_statement_type": "Annual Financial Statements",
+        "financial_period": {
+          "as_at_date": null,
+          "annual_financial_statements_for_year_ended": "31 December 2020"
+        },
+        "currency": "Rand",
+        "data": {
+          "2020": {
+            "derivative_financial_assets": {
+              "financial_risk_management": {
+                "market_price_movements": 0,
+                "credit_risk_liquidity_risk_exposure": 0
+              }
+            },
+            "loans_to_group_companies": {
+              "current_portion": 78080
+            },
+            "cash_and_cash_equivalents": {
+              "bank_balances": 2610394
+            },
+            "share_capital": {
+              "authorised": 1000,
+              "issued": 100
+            },
+            "operating_profit_loss": {
+              "bank_charges": 6320,
+              "reviewers_remuneration": 155578,
+              "other_expenses": 461
+            }
+          }
+        }
+      }
+    }
+  ]
+}

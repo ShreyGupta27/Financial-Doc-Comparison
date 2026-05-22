@@ -19,6 +19,8 @@ from config import (
     OLLAMA_MODEL,
     OLLAMA_TIMEOUT_SECONDS,
     OUTPUT_DIR,
+    path_for_api,
+    pdf_filename,
 )
 
 logger = logging.getLogger(__name__)
@@ -338,7 +340,7 @@ def extract_pdf(
             continue
 
         page_doc = {
-            "source_pdf": str(pdf_path.resolve()),
+            "source_pdf": pdf_filename(pdf_path),
             "page_number": page_num + 1,
             "processed_pages": 1,
             "model": OLLAMA_MODEL,
@@ -354,14 +356,14 @@ def extract_pdf(
         out_path = out_dir / filename
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(page_doc, f, indent=2)
-        saved_files.append(str(out_path))
+        saved_files.append(path_for_api(out_path))
         all_pages.append(page_doc)
 
     doc.close()
 
     return {
-        "source_pdf": str(pdf_path.resolve()),
-        "output_directory": str(out_dir.resolve()),
+        "source_pdf": pdf_filename(pdf_path),
+        "output_directory": path_for_api(out_dir),
         "folder_name": stem,
         "model": OLLAMA_MODEL,
         "pages_processed": len(all_pages),

@@ -1,0 +1,48 @@
+{
+  "source_pdf": "Fin Report 2021.pdf",
+  "page_number": 6,
+  "processed_pages": 1,
+  "model": "qwen2.5-coder:7b",
+  "extracted_data": [
+    {
+      "page": 6,
+      "status": "success",
+      "extracted_content": {
+        "company_name": null,
+        "registration_number": null,
+        "financial_statement_type": "Annual Financial Statements",
+        "financial_period": {
+          "as_at_date": null,
+          "annual_financial_statements_for_year_ended": "31 December 2021"
+        },
+        "currency": null,
+        "data": {
+          "2021": {
+            "loan_to_group_company": {
+              "current_portion": 78080
+            },
+            "cash_and_cash_equivalents": {
+              "bank_balances": 2698875
+            },
+            "share_capital": {
+              "authorised_ordinary_shares_of_r1_each": 1000,
+              "issued_ordinary_shares_of_r1_each": 100
+            }
+          },
+          "2020": {
+            "loan_to_group_company": {
+              "current_portion": 78080
+            },
+            "cash_and_cash_equivalents": {
+              "bank_balances": 2610394
+            },
+            "share_capital": {
+              "authorised_ordinary_shares_of_r1_each": 1000,
+              "issued_ordinary_shares_of_r1_each": 100
+            }
+          }
+        }
+      }
+    }
+  ]
+}

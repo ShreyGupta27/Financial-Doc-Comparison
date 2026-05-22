@@ -14,7 +14,7 @@ from fastapi import FastAPI, File, Form, HTTPException, UploadFile
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
-from config import INPUT_DIR, OUTPUT_DIR
+from config import INPUT_DIR, OUTPUT_DIR, path_for_api
 from extraction import (
     PDFExtractionError,
     extract_pdf,
@@ -153,7 +153,7 @@ async def compare_pdfs_endpoint(
             "folder_name": curr_extract["folder_name"],
             "pages_processed": curr_extract["pages_processed"],
         },
-        "comparison_results_directory": results_dir,
+        "comparison_results_directory": path_for_api(results_dir),
         "page_comparisons": page_results,
     }
 
@@ -184,7 +184,7 @@ async def compare_folders_endpoint(body: CompareFoldersRequest) -> dict[str, Any
     return {
         "message": "Comparison complete",
         "current_folder": current_folder,
-        "comparison_results_directory": results_dir,
+        "comparison_results_directory": path_for_api(results_dir),
         "page_comparisons": _load_comparison_results(results_dir),
     }
 

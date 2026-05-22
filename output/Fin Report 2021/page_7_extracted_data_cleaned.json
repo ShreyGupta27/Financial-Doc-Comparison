@@ -1,0 +1,45 @@
+{
+  "source_pdf": "Fin Report 2021.pdf",
+  "page_number": 7,
+  "processed_pages": 1,
+  "model": "qwen2.5-coder:7b",
+  "extracted_data": [
+    {
+      "page": 7,
+      "status": "success",
+      "extracted_content": {
+        "company_name": null,
+        "registration_number": null,
+        "financial_statement_type": "Annual Financial Statements",
+        "financial_period": {
+          "as_at_date": null,
+          "annual_financial_statements_for_year_ended": "31 December 2021"
+        },
+        "currency": "Rand",
+        "data": {
+          "2021": {
+            "operating_loss": {
+              "bank_charges": 5519,
+              "other_expenses": 611
+            },
+            "taxation": {
+              "accounting_profit": 1893348,
+              "tax_at_applicable_tax_rate_of_28_percent": 530137,
+              "exempt_income": -531682,
+              "non_deductible_expenses": 1545
+            },
+            "cash_utilised_in_operations": {
+              "profit_before_taxation": 1893348,
+              "income_from_equity_accounted_investments": -1804867,
+              "donations_received": -94000,
+              "increase_in_trade_and_other_receivables": -155428
+            },
+            "related_parties": {
+              "loan_accounts_owing_by_related_parties": 78080
+            }
+          }
+        }
+      }
+    }
+  ]
+}

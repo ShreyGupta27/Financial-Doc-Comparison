@@ -17,3 +17,17 @@ MAX_PAGES_PER_PDF = int(os.getenv("MAX_PAGES_PER_PDF", "50"))
 
 INPUT_DIR.mkdir(parents=True, exist_ok=True)
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+
+
+def path_for_api(path: str | Path) -> str:
+    """Relative path from project root (posix), safe for JSON/GitHub examples."""
+    p = Path(path).resolve()
+    try:
+        return p.relative_to(BASE_DIR).as_posix()
+    except ValueError:
+        return Path(path).name
+
+
+def pdf_filename(path: str | Path) -> str:
+    """PDF basename only — no machine-specific directories."""
+    return Path(path).name

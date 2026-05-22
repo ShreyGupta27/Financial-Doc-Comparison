@@ -1,0 +1,40 @@
+{
+  "source_pdf": "Fin Report 2020.pdf",
+  "page_number": 4,
+  "processed_pages": 1,
+  "model": "qwen2.5-coder:7b",
+  "extracted_data": [
+    {
+      "page": 4,
+      "status": "success",
+      "extracted_content": {
+        "company_name": null,
+        "registration_number": null,
+        "financial_statement_type": "Statement of Cash Flows",
+        "financial_period": {
+          "as_at_date": null,
+          "annual_financial_statements_for_year_ended": "31 December 2020"
+        },
+        "currency": "Rand",
+        "data": {
+          "2020": {
+            "cash_flows_from_operating_activities": {
+              "cash_utilised_in_operations": -162359,
+              "donations_received": 300000,
+              "net_cash_generated_from_utilised_in_operating_activities": 137641
+            },
+            "cash_flows_from_investing_activities": {
+              "cash_advanced_in_loans_to_group_companies": -78080
+            },
+            "cash_flows_from_financing_activities": {
+              "dividends_paid": -500000
+            },
+            "total_cash_and_cash_equivalents_movement_for_the_year": -440439,
+            "cash_and_cash_equivalents_at_the_beginning_of_the_year": 3050833,
+            "cash_and_cash_equivalents_at_the_end_of_the_year": 2610394
+          }
+        }
+      }
+    }
+  ]
+}

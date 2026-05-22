@@ -1,0 +1,70 @@
+{
+  "source_pdf": "Fin Report 2020.pdf",
+  "page_number": 5,
+  "processed_pages": 1,
+  "model": "qwen2.5-coder:7b",
+  "extracted_data": [
+    {
+      "page": 5,
+      "status": "success",
+      "extracted_content": {
+        "company_name": null,
+        "registration_number": null,
+        "financial_statement_type": "Summarised financial information of material associates",
+        "financial_period": {
+          "as_at_date": null,
+          "annual_financial_statements_for_year_ended": "31 December 2020"
+        },
+        "currency": "Rand",
+        "data": {
+          "2020": {
+            "statement_of_profit_or_loss_and_other_comprehensive_income": {
+              "revenue": 122696983,
+              "other_expenses": -47721800,
+              "profit_before_taxation": 16119951,
+              "tax_expense": -4716697,
+              "profit_from_continuing_operations": 11403254,
+              "total_comprehensive_income": 11403254
+            },
+            "statement_of_financial_position": {
+              "assets": {
+                "non_current_assets": 13255474,
+                "current_assets": 55495979,
+                "total_assets": 68751453
+              },
+              "liabilities": {
+                "non_current_liabilities": 196237,
+                "current_liabilities": 35321541,
+                "total_liabilities": 35517778
+              },
+              "total_net_assets": 33233675
+            }
+          },
+          "2019": {
+            "statement_of_profit_or_loss_and_other_comprehensive_income": {
+              "revenue": 135513621,
+              "other_expenses": -52572638,
+              "profit_before_taxation": 25659600,
+              "tax_expense": -7184694,
+              "profit_from_continuing_operations": 18474906,
+              "total_comprehensive_income": 18474906
+            },
+            "statement_of_financial_position": {
+              "assets": {
+                "non_current_assets": 12619731,
+                "current_assets": 90411566,
+                "total_assets": 103031297
+              },
+              "liabilities": {
+                "non_current_liabilities": 196237,
+                "current_liabilities": 41004643,
+                "total_liabilities": 41200880
+              },
+              "total_net_assets": 61830417
+            }
+          }
+        }
+      }
+    }
+  ]
+}

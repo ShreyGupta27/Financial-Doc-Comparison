@@ -1,0 +1,76 @@
+{
+  "source_pdf": "Fin Report 2021.pdf",
+  "page_number": 2,
+  "processed_pages": 1,
+  "model": "qwen2.5-coder:7b",
+  "extracted_data": [
+    {
+      "page": 2,
+      "status": "success",
+      "extracted_content": {
+        "company_name": null,
+        "registration_number": null,
+        "financial_statement_type": "Statement of Profit or Loss and Other Comprehensive Income",
+        "financial_period": {
+          "as_at_date": null,
+          "annual_financial_statements_for_year_ended": "31 December 2021"
+        },
+        "currency": "Rand",
+        "data": {
+          "2021": {
+            "donations_received": {
+              "total": 94000
+            },
+            "bank_charges": {
+              "total": -5519
+            },
+            "other_operating_expenses": {
+              "total": 0
+            },
+            "operating_profit": {
+              "total": 888481
+            },
+            "income_from_equity_accounted_investments": {
+              "total": 1804867
+            },
+            "profit_before_taxation": {
+              "total": 1893348
+            },
+            "taxation": {
+              "total": 0
+            },
+            "profit_for_the_year": {
+              "total": 1893348
+            }
+          },
+          "2020": {
+            "donations_received": {
+              "total": 300000
+            },
+            "bank_charges": {
+              "total": -6320
+            },
+            "other_operating_expenses": {
+              "total": -611
+            },
+            "operating_profit": {
+              "total": 293069
+            },
+            "income_from_equity_accounted_investments": {
+              "total": 2739061
+            },
+            "profit_before_taxation": {
+              "total": 3032130
+            },
+            "taxation": {
+              "total": 0
+            },
+            "profit_for_the_year": {
+              "total": 3032130
+            }
+          }
+        }
+      }
+    }
+  ]
+}

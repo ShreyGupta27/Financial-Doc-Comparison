@@ -1,0 +1,64 @@
+{
+  "source_pdf": "Fin Report 2021.pdf",
+  "page_number": 5,
+  "processed_pages": 1,
+  "model": "qwen2.5-coder:7b",
+  "extracted_data": [
+    {
+      "page": 5,
+      "status": "success",
+      "extracted_content": {
+        "company_name": null,
+        "registration_number": null,
+        "financial_statement_type": "Summarised Statement of Profit or Loss and Other Comprehensive Income",
+        "financial_period": {
+          "as_at_date": null,
+          "annual_financial_statements_for_year_ended": "31 December 2021"
+        },
+        "currency": "Rand",
+        "data": {
+          "2021": {
+            "revenue": {
+              "total_revenue": 53671643
+            },
+            "other_expenses": {
+              "total_other_expenses": 27010196
+            },
+            "profit_before_taxation": {
+              "total_profit_before_taxation": 9463264
+            },
+            "tax_expense": {
+              "total_tax_expense": -1949246
+            },
+            "profit_from_continuing_operations": {
+              "total_profit_from_continuing_operations": 7514018
+            },
+            "total_comprehensive_income": {
+              "total_comprehensive_income": 7514018
+            }
+          },
+          "2020": {
+            "revenue": {
+              "total_revenue": 122696983
+            },
+            "other_expenses": {
+              "total_other_expenses": 47721800
+            },
+            "profit_before_taxation": {
+              "total_profit_before_taxation": 16119951
+            },
+            "tax_expense": {
+              "total_tax_expense": -4716697
+            },
+            "profit_from_continuing_operations": {
+              "total_profit_from_continuing_operations": 11403254
+            },
+            "total_comprehensive_income": {
+              "total_comprehensive_income": 11403254
+            }
+          }
+        }
+      }
+    }
+  ]
+}

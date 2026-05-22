@@ -1,0 +1,64 @@
+{
+  "source_pdf": "Fin Report 2021.pdf",
+  "page_number": 8,
+  "processed_pages": 1,
+  "model": "qwen2.5-coder:7b",
+  "extracted_data": [
+    {
+      "page": 8,
+      "status": "success",
+      "extracted_content": {
+        "company_name": null,
+        "registration_number": null,
+        "financial_statement_type": "Annual Financial Statements",
+        "financial_period": {
+          "as_at_date": null,
+          "annual_financial_statements_for_year_ended": "31 December 2021"
+        },
+        "currency": "Rand",
+        "data": {
+          "2021": {
+            "related_parties": {
+              "dividends_paid": 500000,
+              "donations_received": 94000,
+              "income_from_equity_accounted_investments": 1804867
+            },
+            "directors_emoluments": 0,
+            "financial_instruments_and_risk_management": {
+              "categories_of_financial_assets": {
+                "loan_to_group_company": 78080,
+                "trade_and_other_receivables": 155428,
+                "cash_and_cash_equivalents": 2698875
+              }
+            },
+            "capital_risk_management": {
+              "gearing_ratio": -12
+            },
+            "cash_and_cash_equivalents": -2698875,
+            "equity": 21655880
+          },
+          "2020": {
+            "related_parties": {
+              "dividends_paid": 300000,
+              "donations_received": 94000,
+              "income_from_equity_accounted_investments": 2739062
+            },
+            "directors_emoluments": 0,
+            "financial_instruments_and_risk_management": {
+              "categories_of_financial_assets": {
+                "loan_to_group_company": 78080,
+                "trade_and_other_receivables": 155428,
+                "cash_and_cash_equivalents": 2610394
+              }
+            },
+            "capital_risk_management": {
+              "gearing_ratio": -13
+            },
+            "cash_and_cash_equivalents": -2610394,
+            "equity": 19762532
+          }
+        }
+      }
+    }
+  ]
+}

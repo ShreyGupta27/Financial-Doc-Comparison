@@ -1,0 +1,38 @@
+{
+  "source_pdf": "Fin Report 2021.pdf",
+  "page_number": 3,
+  "processed_pages": 1,
+  "model": "qwen2.5-coder:7b",
+  "extracted_data": [
+    {
+      "page": 3,
+      "status": "success",
+      "extracted_content": {
+        "company_name": null,
+        "registration_number": null,
+        "financial_statement_type": "Statement of Changes in Equity",
+        "financial_period": {
+          "as_at_date": "31 December 2021",
+          "annual_financial_statements_for_year_ended": "2021"
+        },
+        "currency": "Rand",
+        "data": {
+          "2020": {
+            "share_capital_other_reserves": {
+              "capital_contribution": 100,
+              "retained_income": 3798407,
+              "total_equity": 17230402
+            }
+          },
+          "2021": {
+            "share_capital_other_reserves": {
+              "capital_contribution": 100,
+              "retained_income": 17857373,
+              "total_equity": 21655880
+            }
+          }
+        }
+      }
+    }
+  ]
+}
